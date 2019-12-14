@@ -1,4 +1,4 @@
-package com.company.backtrack.subsets;
+package com.backtrack.subsets;
 
 import java.util.ArrayList;
 import java.util.Collections;
