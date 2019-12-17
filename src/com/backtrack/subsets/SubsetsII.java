@@ -12,6 +12,7 @@ public class SubsetsII {
     ) {
         combinations.add(state);
         int prev = Integer.MIN_VALUE;
+        System.out.println(index + " ---> " + state);
         for (int i = index; i < numbers.size(); i++) {
             if (prev == numbers.get(i)) continue;
 
